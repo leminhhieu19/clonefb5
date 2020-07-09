@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(to bottom right, white, #bcbdc4);
+    height: 4000px;
+}
+#form3 {
+    top: 135px;
+    left: 850px;
+    font-family: verdana;
+    font-size: 20px;
+    color: #142170;
+    width: 500px;
+    height: 495px;
+}
+
+#button2 {
+    width: 250px;
+    height: 50px;
+    background: #6aa656;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px/10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.bodyfooter {
+    position: absolute;
+    left: 0;
+    top: 950px;
+    width: 100%;
+    height: 80px;
+    background: white;
+}
+
+#mess {
+    color: red;
+}
+/* ////////// */

@@ -1,0 +1,220 @@
+body {
+    background: linear-gradient(to bottom right, white, #bcbdc4);
+    height: 4000px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigate {
+    position: fixed;
+    background-color: #18191a;
+    width: 325px;
+    height: 100%;
+    top: 60px;
+    left: 0;
+    z-index: 7;
+}
+
+.bodyn {
+    top: 80px;
+    left: 30px;
+    position: absolute;
+    width: 200px;
+    height: 740px;
+    font-family: Times New Roman;
+}
+
+.container {
+    display: flex;
+    flex-basis: 20px;
+    margin-left: 10px;
+    align-items: center;
+}
+
+#profilearea5 {
+    margin-top: 10px;
+}
+
+.avatar {
+    width: 15%;
+    height: 15%;
+    object-fit: contain;
+}
+
+.statustext {
+    padding-top: 15px;
+    font-size: 15px;
+    top: 15px;
+    width: 250px;
+    height: 40px;
+    background: #3a3b3c;
+    padding: 5px;
+    outline: none;
+    outline-width: 0;
+    border-radius: 20px/20px;
+    /* background-image: url(search.png); */
+    background-position: 5px;
+    background-repeat: no-repeat;
+}
+
+.chat-sidebar {
+    width: 200px;
+    position: fixed;
+    height: 605px;
+    right: 125px;
+    top: 60px;
+    margin-top: 150px;
+    background: #18191a;
+}
+#profpic {
+    height: 30px;
+}
+#chatnamebox{
+    color: white !important;
+}
+#chatnamebox1 {
+    width: 150px;
+    height: 30px;
+    top: 105px;
+    color: white;
+    padding-top: 8px;
+    padding-left: 50px;
+}
+#chatnamebox2 {
+    width: 150px;
+    height: 30px;
+    top: 145px;
+
+    color: white;
+    padding-top: 8px;
+
+    padding-left: 50px;
+}
+#chatnamebox3 {
+    width: 150px;
+    height: 30px;
+    top: 185px;
+    color: white;
+    padding-top: 8px;
+
+    padding-left: 50px;
+}
+#chatnamebox4 {
+    width: 150px;
+    height: 30px;
+    top: 225px;
+    color: white;
+    padding-top: 8px;
+    padding-left: 50px;
+}
+#chatnamebox5 {
+    width: 150px;
+    height: 30px;
+    top: 265px;
+    color: white;
+    padding-top: 8px;
+    padding-left: 50px;
+}
+#chatnamebox6 {
+    width: 150px;
+    height: 30px;
+    top: 305px;
+    color: white;
+    padding-top: 8px;
+    padding-left: 50px;
+}
+.coverpad {
+    left: 100px;
+    top: 60px;
+    background: white;
+    height: 360px;
+    width: 850px;
+    position: absolute;
+    display: none;
+}
+
+#chatnameboxp1 {
+    width: 30px;
+    height: 30px;
+    left: 5px;
+    position: absolute;
+    top: -143px;
+}
+#chatnameboxp2 {
+    width: 30px;
+    height: 30px;
+    left: 5px;
+    position: absolute;
+    top: -103px;
+}
+#chatnameboxp3 {
+    width: 30px;
+    height: 30px;
+    left: 5px;
+    position: absolute;
+    top: -63px;
+}
+#chatnameboxp4 {
+    width: 30px;
+    height: 30px;
+    left: 5px;
+    position: absolute;
+    top: -23px;
+}
+#chatnameboxp5 {
+    width: 30px;
+    height: 30px;
+    left: 5px;
+    position: absolute;
+    top: 16px;
+}
+#chatnameboxp6 {
+    width: 30px;
+    height: 30px;
+    left: 5px;
+    position: absolute;
+    top: 58px;
+}
+
+#chatnameboxp7 {
+    width: 30px;
+    height: 30px;
+    left: 5px;
+    position: absolute;
+    top: 100px;
+}
+#chatnamebox:hover {
+    background: #e1e5e6;
+}
+#chatnamebox1:hover {
+    background: #e1e5e6;
+}
+#chatnamebox2:hover {
+    background: #e1e5e6;
+}
+#chatnamebox3:hover {
+    background: #e1e5e6;
+}
+#chatnamebox4:hover {
+    background: #e1e5e6;
+}
+#chatnamebox5:hover {
+    background: #e1e5e6;
+}
+#chatnamebox6:hover {
+    background: #e1e5e6;
+}
+#chatnamebox {
+    width: 150px;
+    height: 30px;
+    top: 65px;
+    color: black;
+    font-size: 16px;
+    padding-top: 8px;
+    padding-left: 50px;
+}
